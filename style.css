@@ -1,0 +1,115 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: radial-gradient(circle at top left, #0f2027, #203a43, #2c5364);
+  color: #fff;
+  line-height: 1.6;
+  text-align: center;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background-color: #111;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+header .logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+}
+
+header nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #ccc;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+header nav a:hover,
+header .contact-btn {
+  color: #ff4b2b;
+}
+
+/* Hero Section */
+.hero {
+  padding: 100px 20px;
+}
+
+.hero h1 {
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+
+.hero .highlight {
+  color: #ff4b2b;
+}
+
+.hero p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.tags span {
+  display: inline-block;
+  margin: 5px;
+  padding: 8px 12px;
+  background: #333;
+  border-radius: 8px;
+  font-weight: 500;
+}
+
+.tags .selected {
+  background: #ff4b2b;
+  color: #fff;
+}
+
+.socials a {
+  display: inline-block;
+  margin: 10px;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 15px;
+  background: #333;
+  border-radius: 6px;
+  transition: background 0.3s;
+}
+
+.socials a:hover {
+  background: #ff4b2b;
+}
+
+.btn-main {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 12px 30px;
+  background: #ff4b2b;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+/* Section placeholders */
+section {
+  padding: 80px 20px;
+}
+
+footer {
+  background: #111;
+  padding: 20px;
+  color: #aaa;
+}
