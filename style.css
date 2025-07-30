@@ -19,7 +19,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 20px 50px;
-  background-color: #111;
+  background-color: #ffffff;
   position: sticky;
   top: 0;
   z-index: 100;
@@ -96,7 +96,7 @@ header .contact-btn {
   display: inline-block;
   margin-top: 30px;
   padding: 12px 30px;
-  background: #ff4b2b;
+  background: #007acc;
   color: white;
   font-weight: bold;
   text-decoration: none;
@@ -111,5 +111,5 @@ section {
 footer {
   background: #111;
   padding: 20px;
-  color: #aaa;
+  color: #ffffff;
 }
