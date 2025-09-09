@@ -87,12 +87,12 @@ header .contact-btn {
   font-size: 0.95rem;
 }
 
-.tags .selected {
+/* .tags .selected {
   background-color: #f9a825;
   color: #121212;
   font-weight: bold;
   border: none;
-}
+} */
 
 /* Social Links */
 .socials a {
